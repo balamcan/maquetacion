@@ -1,9 +1,23 @@
-
-* {
+:root {
+    /* Colors */
+    --light-blue: #C6DFEE;
+    --h1-color: #bac1c5;
+  }
+  * {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
-    }
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+  html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+/*  h1     font-family: 'Bebas Neue', cursive;
+p     font-family: 'Montserrat', sans-serif; */
+}
 
 .body{
     display:flex;
@@ -194,3 +208,96 @@ body {
 
 }
 
+
+
+
+
+
+
+.btn-learn {
+  padding: 10px;
+  border: solid 2px;
+  border-color: black;
+  font-weight:  bold ;
+  font-size: 1rem;
+}
+
+
+
+.polka-dots {
+  height: 1000px;
+  width: 1000px;
+background-image: radial-gradient(#212121 20%, transparent 20%),
+/* radial-gradient(#fafafa 20%, transparent 20%); */
+background-color: none;
+background-position: 0 0, 50px 50px;
+background-size: 100px 100px;
+}
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40%;
+  width: 60vw;
+  margin-top: 1em; 
+}
+
+.form p {
+  font-size: 3em;
+  font-weight: bold;
+  font: 'Lucida Sans';
+  display: flex;
+  justify-content: center;
+}
+
+.form input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border-bottom: solid black 1px;
+  color: black;
+}
+
+.form textarea {
+  height: 70px;
+  background: none;
+  color: black;
+  padding: 1.5em;
+  border-bottom: solid black 1px;
+  }
+
+  .btn-submit {
+  width: 40%;
+  margin-top: .5em;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+}
+
+  .btn-submit:hover {
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+  }
+
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90px;
+  background-color: var(--light-blue);
+}
+
+.pre {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+}
