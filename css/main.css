@@ -54,7 +54,6 @@ h1 , h5 {
 
 }
 
-
 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -70,13 +69,11 @@ body {
     padding: 0;
 }
 
-
 .fondo1 { 
     background-color: #C6DFEE;
     height: 200px;
     position: relative;
 }
-
 
 .fondo { 
     background-color: #C6DFEE;
@@ -88,6 +85,7 @@ body {
 .image {
     position: relative;
 }
+
 .hand {
     right: 10%;
     position: relative;
@@ -208,11 +206,19 @@ body {
 
 }
 
-
-
-
-
-
+/* Branding  -->*/
+.fondo2 { 
+    background-color: #C6DFEE;
+    width: 70%;
+    height: 500px;
+    top: 270px;
+    right: 10vh;
+}
+.branding-description {
+    /* background-color: #212121 */;
+/*     height: 300px;
+    width: 100px; */
+}
 
 .btn-learn {
   padding: 10px;
@@ -222,8 +228,14 @@ body {
   font-size: 1rem;
 }
 
-
-
+.btn-learn:hover {
+    padding: 10px;
+    border: solid 2px;
+    background-color: black;
+    color: white;
+    font-weight:  bold ;
+    font-size: 1rem;
+}
 .polka-dots {
   height: 1000px;
   width: 1000px;
@@ -233,8 +245,18 @@ background-color: none;
 background-position: 0 0, 50px 50px;
 background-size: 100px 100px;
 }
+/*  <-- /Branding */
 
 
+/*  Contact --> */
+.image {
+    width: 150px;
+    height: 250px;
+}
+.form-container {
+    border: solid black 1px;
+    box-shadow: 5px 10 px black;
+}
 
 .form {
   display: flex;
@@ -282,22 +304,11 @@ background-size: 100px 100px;
     color: black;
     border: solid black 1px;
   }
+/* <-- /Contact */
 
 
-
-
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90vw;
-  height: 90px;
+/* Footer -->*/
+#footer {
   background-color: var(--light-blue);
 }
-
-.pre {
-  display: flex;
-  justify-items: center;
-  align-content: center;
-}
+/* <-- /Footer */
