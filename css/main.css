@@ -207,11 +207,17 @@ body {
 }
 
 /* Branding  -->*/
+.branding {
+    position: relative;
+    bottom: 1300px;
+}
+
 .fondo2 { 
     background-color: #C6DFEE;
     width: 70%;
+    position: relative;
     height: 500px;
-    top: 270px;
+    bottom: 800px;
     right: 10vh;
 }
 .branding-description {
@@ -273,7 +279,9 @@ background-size: 100px 100px;
   display: flex;
   justify-content: center;
 }
-
+.foo-form{
+    color: blue;
+}
 .form input {
   padding: 10px 20px;
   margin-bottom: 1em;
@@ -312,3 +320,11 @@ background-size: 100px 100px;
   background-color: var(--light-blue);
 }
 /* <-- /Footer */
+
+.red{
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
